@@ -1,0 +1,62 @@
+.agentCard {
+  background: white;
+  box-shadow: 1px 1px 30px 1px rgba(128, 128, 128, 0.26);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  grid-template-rows: 1fr 1fr;
+}
+
+.agentCard__row {
+  display: flex;
+  flex-direction: column;
+}
+.agentCard__row .btn {
+  width: 50%;
+  text-align: center;
+}
+.agentCard__row:last-child {
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.agentCard img {
+  border-radius: 50%;
+  width: 30%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.agentCard__input {
+  border-bottom: 2px solid var(--off-black);
+  display: flex;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.agentCard__input .fas {
+  color: var(--primary);
+}
+
+.agentCard__input__focus {
+  border-bottom: 2px solid var(--off-primary);
+}
+
+.agentCard__input input {
+  border: none;
+  outline: none;
+  flex: 1;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.agentCard__info {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

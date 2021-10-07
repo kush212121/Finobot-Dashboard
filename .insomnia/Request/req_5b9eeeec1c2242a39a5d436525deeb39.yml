@@ -1,0 +1,28 @@
+_id: req_5b9eeeec1c2242a39a5d436525deeb39
+type: Request
+parentId: fld_c4ee0874fbcb45d39a54140d5d324ba4
+modified: 1624518963065
+created: 1624518963065
+url: "{{ _.base_url }}/orgs/custom-intents"
+name: Get All Custom Intents
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2b62af42708b4e64b60c93fad6e952a1
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1620796452794.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+.manageOrgs__heading {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.manageOrgs__heading span {
+  color: var(--primary);
+}
+
+.manageOrgs__actions i {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.reload-rotate {
+  animation: 0.4s rotate infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}

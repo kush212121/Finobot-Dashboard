@@ -1,0 +1,30 @@
+_id: req_11707884e57a4201bfaca27d05b0251d
+type: Request
+parentId: fld_09e7da0b0045420ab3a18d6c741fd6d1
+modified: 1624518963035
+created: 1624518963035
+url: http://localhost:5000/agents/login
+name: Login Agent
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "john@doe.com",
+    	"password": "pass1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ed9903fbf5e84d6b98aca5926aefc71e
+authentication: {}
+metaSortKey: -1620369652508
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

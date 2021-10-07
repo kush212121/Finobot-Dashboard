@@ -1,0 +1,12 @@
+.dashboard {
+  background: #ededf2;
+  height: 100vh;
+  display: flex;
+}
+
+.dashboard__page {
+  padding: 1rem 2rem;
+  background: white;
+  height: 100%;
+  overflow-y: scroll;
+}

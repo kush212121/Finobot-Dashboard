@@ -1,0 +1,29 @@
+_id: req_4045ebdc807248c5a1ae11ab1fe0c400
+type: Request
+parentId: fld_720bab649ecc48d2a2da1c4c5ba87cc8
+modified: 1624518963079
+created: 1624518963079
+url: http://localhost:5000/orgs/set-pass/60980f9a324445759006f7e9
+name: Set Passs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "password": "pass"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da4b5cc45b8f4a168c3698430d0eb029
+authentication: {}
+metaSortKey: -1619262340385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

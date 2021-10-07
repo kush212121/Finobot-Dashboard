@@ -1,0 +1,22 @@
+.landing {
+  height: 100vh;
+  background: url("../../assets/EntryBG.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.landing__content {
+  background: white;
+  height: 100%;
+  width: 50%;
+  transition: 0.5s;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.swipe-right {
+  transform: translateX(100%);
+}
+.swipe-left {
+  transform: translateX(-100%);
+}

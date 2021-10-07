@@ -1,0 +1,20 @@
+.infoStrip {
+  display: flex;
+  padding: 0.5rem 0;
+}
+
+.infoStrip i {
+  color: var(--off-black);
+  margin-right: 0.75rem;
+}
+
+.infoStrip__heading {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.infoStrip__value {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  color: var(--text);
+}

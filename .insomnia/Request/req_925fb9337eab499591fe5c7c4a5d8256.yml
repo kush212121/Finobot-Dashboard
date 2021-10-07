@@ -1,0 +1,23 @@
+_id: req_925fb9337eab499591fe5c7c4a5d8256
+type: Request
+parentId: fld_c4ee0874fbcb45d39a54140d5d324ba4
+modified: 1624518963073
+created: 1624518963073
+url: "{{ _.base_url }}/orgs/approve-intents/test"
+name: Approve Intent
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.adminToken }}"
+metaSortKey: -1621436574601.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

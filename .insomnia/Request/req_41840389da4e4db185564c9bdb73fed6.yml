@@ -1,0 +1,33 @@
+_id: req_41840389da4e4db185564c9bdb73fed6
+type: Request
+parentId: fld_09e7da0b0045420ab3a18d6c741fd6d1
+modified: 1624518963021
+created: 1624518963021
+url: http://localhost:5000/agents/create
+name: Create Agent
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "bot",
+    	"email" : "bot",
+    	"password" : "bot"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a1fa448344d2465d8a3c18ed9dae2f23
+authentication:
+  type: bearer
+  token: "{{ _.agentToken }}"
+metaSortKey: -1619287168243
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

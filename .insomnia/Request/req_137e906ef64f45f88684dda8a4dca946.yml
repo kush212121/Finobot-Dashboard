@@ -1,0 +1,27 @@
+_id: req_137e906ef64f45f88684dda8a4dca946
+type: Request
+parentId: fld_720bab649ecc48d2a2da1c4c5ba87cc8
+modified: 1624518963083
+created: 1624518963083
+url: http://localhost:5000/orgs
+name: Get All Approved Orgs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_88aa0541c1834ddea29e4d52e5ff41b9
+authentication:
+  type: bearer
+  token: "{{ _.adminToken }}"
+metaSortKey: -1619262923919
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

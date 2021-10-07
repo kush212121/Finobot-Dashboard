@@ -1,0 +1,32 @@
+_id: req_ac16a061ec0940f6ba14cfa3c196ece0
+type: Request
+parentId: fld_720bab649ecc48d2a2da1c4c5ba87cc8
+modified: 1624518963100
+created: 1624518963100
+url: "{{ _.base_url }}/orgs/send-mail/"
+name: Send Mail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "a4748g@gmail.com",
+    	"orgId": "60acfe25aab5d05bac15cb06"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da4b5cc45b8f4a168c3698430d0eb029
+authentication:
+  type: bearer
+  token: "{{ _.adminToken }}"
+metaSortKey: -1618683074392
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

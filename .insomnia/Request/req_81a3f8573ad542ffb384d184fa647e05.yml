@@ -1,0 +1,23 @@
+_id: req_81a3f8573ad542ffb384d184fa647e05
+type: Request
+parentId: fld_c4ee0874fbcb45d39a54140d5d324ba4
+modified: 1624518963054
+created: 1624518963054
+url: "{{ _.base_url }}/orgs/intents"
+name: Get All Intents
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1620926978730
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

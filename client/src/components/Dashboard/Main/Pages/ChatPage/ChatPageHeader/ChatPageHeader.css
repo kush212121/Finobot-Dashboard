@@ -1,0 +1,8 @@
+.chatPageHeader {
+  background: white;
+  border-bottom: 1px solid var(--off-gray);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.3fr;
+  height: 5vh;
+}

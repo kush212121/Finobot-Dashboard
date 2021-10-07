@@ -1,0 +1,5 @@
+.chatScreen {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1.7fr 0.95fr;
+}

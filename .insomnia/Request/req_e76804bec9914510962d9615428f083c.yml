@@ -1,0 +1,31 @@
+_id: req_e76804bec9914510962d9615428f083c
+type: Request
+parentId: fld_3fbd78da04d3452bb5206dd858302aa1
+modified: 1624518963139
+created: 1624518963139
+url: http://localhost:5000/customers/one/609539785c8b155d80fd0f14
+name: Get Customer
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"orgId": "60950820243fa47248cf3b1f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45dce311b9c543fa8297b8605cff19ee
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1620381578149
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

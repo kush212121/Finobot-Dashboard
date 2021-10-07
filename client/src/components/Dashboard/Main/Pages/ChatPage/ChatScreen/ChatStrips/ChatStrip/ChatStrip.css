@@ -1,0 +1,27 @@
+.chatStrip {
+  border-bottom: 1px solid var(--off-gray);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 1rem;
+  align-items: center;
+  grid-gap: 0.5rem;
+}
+
+.chatStrip__uname {
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.chatStrip__uname .badge {
+  margin-left: 0.5rem;
+}
+
+.chatStrip__btm {
+  font-size: 0.8rem;
+  color: var(--off-black);
+  display: flex;
+  justify-content: space-between;
+}

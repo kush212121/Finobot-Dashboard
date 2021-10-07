@@ -1,0 +1,13 @@
+.orgSettings h3 {
+  margin: 2rem 0 1rem 0;
+}
+
+.orgSettings__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.orgSettings .btn {
+  margin: 1rem 0;
+}

@@ -1,0 +1,23 @@
+_id: req_e6c830de09a247e2baa1060bc380ffe4
+type: Request
+parentId: fld_09e7da0b0045420ab3a18d6c741fd6d1
+modified: 1624518963028
+created: 1624518963028
+url: http://localhost:5000/agents/delete/609945a92e4d21648c92ca81
+name: Delete Agent
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1619287336913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

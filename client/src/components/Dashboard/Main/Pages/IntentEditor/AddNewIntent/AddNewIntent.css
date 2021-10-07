@@ -1,0 +1,50 @@
+.addNewIntent {
+  background: white;
+  width: 40vw;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.addNewIntent__heading {
+  display: flex;
+  align-items: center;
+}
+
+.addNewIntent__heading span {
+  margin-left: 1rem;
+}
+
+.addNewIntent .fa-times {
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.addNewIntent .add-btn {
+  margin: 1rem 0;
+}
+
+.addNewIntent__response {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.addNewIntent__response .fa-trash {
+  color: var(--danger);
+  cursor: pointer;
+}
+
+.addNewIntent__response__text {
+  flex: 1;
+}
+
+.addNewIntent__response .intent__num {
+  transform: scale(0.8);
+}
+.addNewIntent .save-btn {
+  display: block;
+  margin: 1rem auto;
+}

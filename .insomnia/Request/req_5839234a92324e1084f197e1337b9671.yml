@@ -1,0 +1,31 @@
+_id: req_5839234a92324e1084f197e1337b9671
+type: Request
+parentId: fld_720bab649ecc48d2a2da1c4c5ba87cc8
+modified: 1624518963095
+created: 1624518963095
+url: "{{ _.base_url }}/orgs/update"
+name: Update Approved Org
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "domainName": "https://fintract.co.uk"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da4b5cc45b8f4a168c3698430d0eb029
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1618103808399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

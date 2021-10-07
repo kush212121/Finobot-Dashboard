@@ -1,0 +1,111 @@
+.register {
+  height: 100%;
+  width: 50vw;
+  min-width: 50vw;
+  transition: 0.5s;
+  position: relative;
+}
+
+.register__content {
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.register__content__logo {
+  height: 15vh;
+  display: block;
+  margin: auto;
+}
+
+.register__step__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem 0;
+}
+
+.register__step__btns span {
+  height: 4vh;
+  width: 4vh;
+  display: grid;
+  place-items: center;
+  margin: 0 0.25rem;
+  border-radius: 50%;
+  border: 1px solid dodgerblue;
+  cursor: pointer;
+}
+
+.register__step__btn__active {
+  background: dodgerblue;
+  color: white;
+}
+
+.multi__form {
+  display: flex;
+  overflow: hidden;
+}
+
+.multi__form__page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 100%;
+  width: 100%;
+  transition: 0.5s;
+  grid-gap: 1rem;
+  padding: 2vh 0;
+}
+
+.btn {
+  outline: none;
+}
+
+.submit__btn {
+  background: #04c35c;
+  color: white;
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  border: none;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  height: fit-content;
+}
+
+.submit__btn:active {
+  opacity: 0.8;
+}
+
+.multi__form__page .btn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.arrow {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.fa-arrow-circle-left.arrow {
+  position: absolute;
+  left: 0;
+  font-size: 1.75rem;
+}
+
+.login__text {
+  color: #2f80ed;
+  cursor: pointer;
+}
+
+.grid__center {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+_id: fld_177d93b6fedf4f119645ff22acf860aa
+type: RequestGroup
+parentId: wrk_808f7e3e12eb4aafb603f4510d79b36d
+modified: 1624518963014
+created: 1624518963014
+name: Chatbot-API
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1000000000

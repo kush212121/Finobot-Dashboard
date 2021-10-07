@@ -1,0 +1,38 @@
+_id: req_df6d0a8605cb4fb98bb742cfc5420a96
+type: Request
+parentId: fld_c4ee0874fbcb45d39a54140d5d324ba4
+modified: 1624518963058
+created: 1624518963058
+url: "{{ _.base_url }}/orgs/intents"
+name: Create New Intent
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"intentName": "insurance",
+    	"responses": [
+          "Visit https://londonscg.group To Get More Details",
+          "To Check Your Invoice Send A Mail To contact.insurance@gmail.com",
+          "Call Customer Care +9415785485 to learn more about Insurance"
+        ],
+    	"isMulti": false,
+    	"isCustom": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_faad9148a57a4b71a9659a2ed32cc9a0
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1620927449656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

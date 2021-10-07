@@ -1,0 +1,6 @@
+.chatStrips {
+  background: white;
+  border-right: 1px solid var(--off-gray);
+  overflow-y: scroll;
+  height: 88vh;
+}

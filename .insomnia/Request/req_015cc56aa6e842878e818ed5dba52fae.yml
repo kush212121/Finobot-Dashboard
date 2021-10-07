@@ -1,0 +1,21 @@
+_id: req_015cc56aa6e842878e818ed5dba52fae
+type: Request
+parentId: fld_d227df1bef19473bbcfeb743c46a29a2
+modified: 1624518963121
+created: 1624518963121
+url: http://localhost:5000/regOrgs/update/134
+name: Update Reg Org
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1620568188511
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

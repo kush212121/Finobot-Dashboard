@@ -1,0 +1,68 @@
+_id: req_2aa2faa565304d4e8ce98abe42209d7f
+type: Request
+parentId: fld_3a7f66cd5aae402db92cbb55044dceab
+modified: 1624518963154
+created: 1624518963154
+url: "{{ _.base_url }}/intent-templates"
+name: Create Intent Template
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"intentName": "test_intent1",
+    		"responses": [
+    			"test1",
+    			"test2"
+    		],
+    		"isMulti": false
+    	},
+    	{
+    		"intentName": "test_intent2",
+    		"responses": [
+    			"test1",
+    			"test2"
+    		],
+    		"isMulti": false,
+    		"multiIntents": [
+    			{
+    				"responses": [
+    					"res 1",
+    					"res 3"
+    				],
+    				"intentName": "payment_issue_encountered_3"
+    			},
+    			{
+    				"responses": [
+    					"res 1",
+    					"res 3"
+    				],
+    				"intentName": "payment_issue_encountered_4"
+    			}
+    		]
+    	},
+    	{
+    		"intentName": "test_intent3",
+    		"responses": [
+    			"test1",
+    			"test2"
+    		],
+    		"isMulti": false
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cf8742e91d9141fea31c06c886115195
+authentication: {}
+metaSortKey: -1624025689817
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

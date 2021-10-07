@@ -1,0 +1,28 @@
+_id: req_0ac7dcf6508b476a81fa22bc5348f622
+type: Request
+parentId: fld_09e7da0b0045420ab3a18d6c741fd6d1
+modified: 1624518963024
+created: 1624518963024
+url: http://localhost:5000/agents
+name: Get All Agents
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_24f566a12aa94ea5a1ef0ffe303aef2b
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1619287505583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

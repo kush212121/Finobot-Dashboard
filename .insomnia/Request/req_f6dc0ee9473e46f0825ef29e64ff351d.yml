@@ -1,0 +1,21 @@
+_id: req_f6dc0ee9473e46f0825ef29e64ff351d
+type: Request
+parentId: fld_98957b62398945ec8131cd004862e073
+modified: 1624518963169
+created: 1624518963169
+url: "{{ _.base_url }}/admin/all"
+name: Get All Admins
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1620559086424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

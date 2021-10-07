@@ -1,0 +1,26 @@
+_id: req_d0781625ff7c4d0daaa2674ee5626de7
+type: Request
+parentId: fld_d227df1bef19473bbcfeb743c46a29a2
+modified: 1624518963117
+created: 1624518963117
+url: http://localhost:5000/regOrgs/delete/608562dad5ef4850b027cd8f
+name: Delete Reg Org
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f013da2d9a774060a46edb519971c0b2
+authentication: {}
+metaSortKey: -1619262421284.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

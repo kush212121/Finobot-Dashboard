@@ -1,0 +1,10 @@
+.manageAgents__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 2rem;
+}
+
+.manageAgents__add .fa-plus-circle {
+  color: var(--primary);
+  font-size: 2rem;
+}

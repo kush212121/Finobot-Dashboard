@@ -1,0 +1,23 @@
+_id: req_b1a8e33db8b24ba4802c342de8845db8
+type: Request
+parentId: fld_177d93b6fedf4f119645ff22acf860aa
+modified: 1624518963174
+created: 1624518963174
+url: http://localhost:5000/verfiy-login/
+name: Verify Login
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.agentToken }}"
+metaSortKey: -1620372788597
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

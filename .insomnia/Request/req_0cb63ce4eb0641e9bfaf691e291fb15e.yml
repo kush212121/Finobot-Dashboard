@@ -1,0 +1,23 @@
+_id: req_0cb63ce4eb0641e9bfaf691e291fb15e
+type: Request
+parentId: fld_720bab649ecc48d2a2da1c4c5ba87cc8
+modified: 1624518963087
+created: 1624518963087
+url: http://localhost:5000/orgs/delete/6098054629b2391da89f964d
+name: Delete Approved Org
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.adminToken }}"
+metaSortKey: -1619264158343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

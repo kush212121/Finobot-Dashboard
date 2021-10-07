@@ -1,0 +1,31 @@
+_id: req_8b56b9be179743748ffa9497a6dc4d8d
+type: Request
+parentId: fld_09e7da0b0045420ab3a18d6c741fd6d1
+modified: 1624518963032
+created: 1624518963032
+url: http://localhost:5000/agents/update/60950b1bbafa25474400fe50
+name: Update Agent
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "botpass"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_24f566a12aa94ea5a1ef0ffe303aef2b
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1619287421248
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

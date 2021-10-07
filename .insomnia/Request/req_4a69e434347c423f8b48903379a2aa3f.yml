@@ -1,0 +1,23 @@
+_id: req_4a69e434347c423f8b48903379a2aa3f
+type: Request
+parentId: fld_3fbd78da04d3452bb5206dd858302aa1
+modified: 1624518963135
+created: 1624518963135
+url: http://localhost:5000/customers
+name: Get All Customers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1620382289907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

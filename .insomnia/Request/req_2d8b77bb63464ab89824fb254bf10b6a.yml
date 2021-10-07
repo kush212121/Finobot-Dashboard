@@ -1,0 +1,28 @@
+_id: req_2d8b77bb63464ab89824fb254bf10b6a
+type: Request
+parentId: fld_c4ee0874fbcb45d39a54140d5d324ba4
+modified: 1624518963069
+created: 1624518963069
+url: http://localhost:5000/orgs/intents/test
+name: Delete Intent
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c761a59dd2de441ca3cc420dc4332f91
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1620927214193
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

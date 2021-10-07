@@ -1,0 +1,163 @@
+.intentEditor__box {
+  box-shadow: 1px 1px 50px 1px var(--off-black);
+  height: 80vh;
+  width: 80vw;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  overflow: hidden;
+}
+
+.intentEditor__box__left {
+  background: #001c40;
+}
+
+.intentEditor__box__right {
+  padding: 2rem;
+  position: relative;
+}
+
+.intentEditor__box__strip {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border-bottom: 1px solid #011024;
+  color: var(--warning);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.intentEditor__box__title {
+  background: #001c40;
+  padding: 1.25rem;
+  color: var(--warning);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intentEditor__box__switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intentEditor__box__switch > label {
+  margin: 0 1rem;
+}
+
+.intentEditor__box__strip:hover {
+  background: #001530;
+}
+
+.intentEditor__box__strip__active {
+  background: #002657;
+}
+
+.intentEditor__box__strip__active:hover {
+  background: #002657;
+}
+
+.intentEditor__box__scroll {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.intent__response {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 30px 1px var(--off-gray);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.intentEditor__box__right h1 {
+  margin-bottom: 2rem;
+}
+
+.intent__num {
+  background: var(--primary);
+  color: white;
+  height: 3.5vh;
+  width: 3.5vh;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-right: 1rem;
+}
+
+.intent__response__left {
+  display: flex;
+  align-items: center;
+}
+
+.intent__add {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.intent__add__input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1.2rem;
+  border-bottom: 3px solid var(--off-gray);
+  margin-right: 1rem;
+  padding: 0.5rem 0;
+  transition: 0.5s;
+}
+
+.intent__add__input__focus {
+  border-bottom: 3px solid var(--primary);
+}
+
+.intent__add i {
+  background: var(--primary);
+  color: white;
+  height: fit-content;
+  width: fit-content;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.intent__response__right .fa-trash {
+  cursor: pointer;
+}
+
+.intent__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.intent__title > div {
+  display: flex;
+  align-items: center;
+}
+
+.intent__title input {
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--primary);
+}
+
+.intent__title i {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.intentName .badge {
+  margin-left: 0.5rem;
+}

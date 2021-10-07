@@ -1,0 +1,63 @@
+.editPartner {
+  background: white;
+  width: 40vw;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.editPartner .fa-times {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.editPartner h2 {
+  margin-bottom: 1.5rem;
+}
+.editPartner h3 {
+  margin-bottom: 0.75rem;
+}
+
+.editPartner hr {
+  margin: 1rem 0;
+}
+
+.editPartner__grid {
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.editPartner__grid__item {
+  display: grid;
+}
+
+.editPartner__grid__col:first-child {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.editPartner__plan__row {
+  display: flex;
+  align-items: center;
+}
+
+.editPartner__plan__row input {
+  margin: 0 1rem;
+  font-size: 1.25rem;
+  width: 100px;
+}
+
+.editPartner__plan__row .fas {
+  cursor: pointer;
+}
+.editPartner .btn {
+  display: block;
+  margin: 2rem auto 0 auto;
+}

@@ -1,0 +1,65 @@
+.orgHome__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid grey;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.orgHome__stats__col {
+  padding: 1rem;
+  border-right: 1px solid grey;
+}
+.orgHome__stats__col:last-child {
+  border: none;
+}
+
+.orgHome__stat__title {
+  font-weight: bold;
+}
+
+.orgHome__stat__value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.orgHome__ins__grid {
+  /* display: grid;
+  grid-template-rows: 1fr 1fr; */
+  grid-gap: 1rem;
+}
+
+.orgHome code {
+  background: rgb(27, 27, 27);
+  color: rgb(233, 10, 233);
+  display: block;
+  padding: 1.25rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.orgHome__code__overlay {
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.orgHome__code__overlay:hover {
+  opacity: 1;
+  transition: 0.5s;
+  display: grid;
+  place-items: center;
+}
+
+.orgHome__code__overlay i {
+  margin-left: 0.5rem;
+}

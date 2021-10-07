@@ -1,0 +1,51 @@
+.userChat {
+  background: var(--off-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userChat__header {
+  font-size: 1rem;
+  background: white;
+  height: 10vh;
+  color: var(--text);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid var(--off-gray);
+}
+
+.userChat__msgs {
+  /* background: red; */
+  overflow-y: scroll;
+  height: 60vh;
+  max-height: 70vh;
+  padding-bottom: 3.5rem;
+}
+
+.userChat__inputs {
+  padding: 1.5rem 1rem;
+  background: white;
+}
+
+.message__input {
+  border: 1px solid var(--off-gray);
+  border-radius: 1.25rem;
+  display: flex;
+}
+
+.message__input input {
+  padding: 0.75rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+}
+
+.dummy {
+  height: 10px;
+  width: 10px;
+  background: red;
+}

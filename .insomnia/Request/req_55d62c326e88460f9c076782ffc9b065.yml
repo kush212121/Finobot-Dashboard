@@ -1,0 +1,30 @@
+_id: req_55d62c326e88460f9c076782ffc9b065
+type: Request
+parentId: fld_720bab649ecc48d2a2da1c4c5ba87cc8
+modified: 1624518963091
+created: 1624518963091
+url: "{{ _.base_url }}/orgs/login"
+name: "Login "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "email": "debasis.chakraborty@fintract.co.uk",
+        "password": "IDhyYt96rse45yhg456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_50c1f82eecd64865bbbdf2096b06bfa3
+authentication: {}
+metaSortKey: -1619267511422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,62 @@
+.intentResponses__drop {
+  margin-left: 1rem;
+  color: var(--dark);
+  transform: rotateZ(0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.intentResponses__drop__active {
+  transform: rotateZ(90deg);
+}
+
+.intentResponses__multires {
+  background: white;
+  box-shadow: 1px 1px 30px 1px var(--off-gray);
+  padding: 1rem 3rem;
+  border-radius: 8px;
+}
+
+.intentResponses__multires__input {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intentResponses__multires__input .fa-times {
+  color: var(--danger);
+}
+
+.intentResponses__multires__input__left {
+  display: flex;
+  align-items: center;
+}
+
+.intentResponses__multires__input:last-child {
+  margin-bottom: 0;
+}
+
+.intentResponses__multires__input span {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  transform: scale(0.8);
+}
+
+.intentResponses__multires__input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 0 1.5rem;
+  border-bottom: 2px solid var(--primary);
+}
+
+.intentResponses__multires__input_add {
+  background: var(--primary);
+  border-radius: 50%;
+  color: white;
+  height: 3.25vh;
+  width: 3.25vh;
+  display: grid;
+  place-items: center;
+}

@@ -1,0 +1,33 @@
+_id: req_e29ea541dc1442bf846679b7125967a0
+type: Request
+parentId: fld_c4ee0874fbcb45d39a54140d5d324ba4
+modified: 1624518963061
+created: 1624518963061
+url: "{{ _.base_url }}/orgs/intents"
+name: Update Intent
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"intentId": "60acf7bcaab5d05bac15cb01",
+    	"intentName": "payment_issue",
+    	"isApproved": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c7d08d8d3d944f7b8dd7bf854ba25f64
+authentication:
+  type: bearer
+  token: "{{ _.orgToken }}"
+metaSortKey: -1621945699547
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

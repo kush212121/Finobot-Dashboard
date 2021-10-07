@@ -1,0 +1,30 @@
+_id: req_38e73efe72eb4ece9f8834f77182cd92
+type: Request
+parentId: fld_98957b62398945ec8131cd004862e073
+modified: 1624518963164
+created: 1624518963164
+url: "{{ _.base_url }}/admin/create"
+name: Create Admin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "finnovate@fintract.co.uk",
+    	"password": "DhyYt96rse45ys0hg456finbotjy0tif1n"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_515af1deb2314f0f8c8b6a95578ef670
+authentication: {}
+metaSortKey: -1620559010737
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

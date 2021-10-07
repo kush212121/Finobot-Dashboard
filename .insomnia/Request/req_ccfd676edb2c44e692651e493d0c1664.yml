@@ -1,0 +1,34 @@
+_id: req_ccfd676edb2c44e692651e493d0c1664
+type: Request
+parentId: fld_d227df1bef19473bbcfeb743c46a29a2
+modified: 1624518963107
+created: 1624518963107
+url: http://localhost:5000/regOrgs/register
+name: Create Reg Org
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "orgName": "fourThree",
+      "address": "Silicon Valley",
+      "directorName": "Akshit",
+      "email": "a4748g@gmail.com",
+      "firstNumber": "100",
+      "secondNumber": "101"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f013da2d9a774060a46edb519971c0b2
+authentication: {}
+metaSortKey: -1619262502184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

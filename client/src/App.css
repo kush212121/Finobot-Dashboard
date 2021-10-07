@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Font Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+
+  margin: 0;
+}
+
+/* Variables */
+:root {
+  --dark-blue: #110f48;
+  --logo-primary: #001c40;
+  --logo-secondary: #f39711;
+  /* theme */
+  --off-gray: #d9dbdb;
+  --off-black: #a7a7a7;
+  --off-white: #f7f8f8;
+  --text: #204b64;
+  --primary: #00a1ff;
+  --success: #16e49f;
+  --success-2: #00ff62;
+  --danger: tomato;
+  --purple: rgb(77, 0, 128);
+  --warning: #ffd43b;
+  --bg-warning: rgba(255, 213, 61, 0.15);
+  --bg-primary: #32a9ee27;
+  --bg-success: rgba(22, 228, 159, 0.15);
+  --bg-danger: rgba(255, 99, 71, 0.15);
+  /* font */
+  --h2: 1rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid var(--off-black);
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+  max-height: fit-content;
+}
+
+.badge-success {
+  border: 1px solid var(--success);
+  color: var(--success);
+  background: var(--bg-success);
+}
+.badge-primary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: var(--bg-primary);
+}
+.badge-warning {
+  border: 1px solid var(--warning);
+  color: var(--warning);
+  background: var(--bg-warning);
+}
+
+.badge-danger {
+  border: 1px solid var(--danger);
+  color: var(--danger);
+  background: var(--bg-danger);
+}
+
+.badge-purple {
+  border: 1px solid var(--purple);
+  color: var(--purple);
+  background: rgba(92, 0, 128, 0.171);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.btn-success {
+  background: var(--success);
+  border: 1px solid var(--success);
+}
+
+.btn-danger {
+  background: var(--danger);
+  border: 1px solid var(--danger);
+}
+.btn-primary {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn-primary-outlined {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+.text-success {
+  color: var(--success);
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00193a94;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #023a83d3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Toggle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2.3rem;
+  height: 1.3rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  left: 0.1rem;
+  bottom: 0.125rem;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1rem);
+  -ms-transform: translateX(1rem);
+  transform: translateX(1rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 1.3rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

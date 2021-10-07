@@ -1,0 +1,23 @@
+_id: req_c03872cf25d74b48a2182c0e414349ce
+type: Request
+parentId: fld_177d93b6fedf4f119645ff22acf860aa
+modified: 1624518963178
+created: 1624518963178
+url: http://localhost:5000/verify-login
+name: Verify Token
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.adminToken }}"
+metaSortKey: -1620654110296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_f902a899f96d49c6a1a7360af2bf4d0b
+type: Request
+parentId: fld_cac67a8284454bafa58cb31d853f6e5b
+modified: 1624518963046
+created: 1624518963046
+url: http://localhost:5000/customers/6098f21645dff00f00a13222
+name: Get All Customers
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_92984c3251ed404897525b5307d09f62
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1620665926859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

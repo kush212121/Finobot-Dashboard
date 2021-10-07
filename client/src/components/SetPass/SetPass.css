@@ -1,0 +1,58 @@
+.setPass {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.301)),
+    url("../../assets/EntryBG.jpg");
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.setPass__box {
+  background: white;
+  width: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  border-radius: 8px;
+}
+
+.setPass__box img {
+  height: 10vh;
+}
+
+.setPass__box h2 {
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+.setPass__input {
+  width: 80%;
+  display: flex;
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  align-items: center;
+  border-bottom: 3px solid var(--off-black);
+}
+
+.setPass__input__focus {
+  border-bottom: 3px solid var(--primary);
+}
+
+.setPass__input i {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.setPass__input input {
+  flex: 1;
+  font-size: 1rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem 0.25rem;
+  outline: none;
+}
+
+.setPass__box .btn {
+  margin-top: 1rem;
+}

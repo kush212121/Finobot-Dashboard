@@ -1,0 +1,12 @@
+.inputGroup label {
+  color: #4a5568;
+  font-weight: 400;
+}
+
+.inputGroup select {
+  padding: 0.75rem;
+  width: 95%;
+  margin: 0.25rem 0;
+  border: 2px solid #bbbbbb;
+  outline: none;
+}

@@ -1,0 +1,31 @@
+_id: req_13b6c7a73ac84d96bf7eaffacc17ef1c
+type: Request
+parentId: fld_3fbd78da04d3452bb5206dd858302aa1
+modified: 1624518963131
+created: 1624518963131
+url: http://localhost:5000/customers/
+name: Create Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"orgId": "60950820243fa47248cf3b1f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45dce311b9c543fa8297b8605cff19ee
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1620381855245
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

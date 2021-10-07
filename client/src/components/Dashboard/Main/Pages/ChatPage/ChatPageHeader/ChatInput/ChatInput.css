@@ -1,0 +1,21 @@
+.chatInput {
+  border: 1.5px solid var(--off-white);
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem;
+  border-radius: 4px;
+  background: var(--off-white);
+}
+
+.chatInput__focus {
+  border: 1.5px solid var(--primary);
+}
+
+.chatInput input {
+  border: none;
+  outline: none;
+  flex: 1;
+  margin-left: 0.5rem;
+  padding: 0.75rem 0;
+  background: transparent;
+}

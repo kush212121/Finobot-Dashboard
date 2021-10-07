@@ -1,0 +1,30 @@
+_id: req_cb883cef0f114b4da556ad2f93aba76f
+type: Request
+parentId: fld_98957b62398945ec8131cd004862e073
+modified: 1624518963159
+created: 1624518963159
+url: http://localhost:5000/admin/login
+name: Admin Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "email": "a4748g@gmail.com",
+        "password": "pass"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_50c1f82eecd64865bbbdf2096b06bfa3
+authentication: {}
+metaSortKey: -1620381301053
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

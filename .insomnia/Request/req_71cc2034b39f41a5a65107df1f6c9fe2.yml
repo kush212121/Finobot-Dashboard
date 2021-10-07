@@ -1,0 +1,23 @@
+_id: req_71cc2034b39f41a5a65107df1f6c9fe2
+type: Request
+parentId: fld_d227df1bef19473bbcfeb743c46a29a2
+modified: 1624518963110
+created: 1624518963110
+url: http://localhost:5000/regOrgs/
+name: Get All Reg Orgs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImE0NzQ4Z0BnbWFpbC5jb20iLCJpZCI6IjYwOTdjNTVlN2NkNTdjNmY3ODI2NmYyNSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTYyMDU2MDk1NSwiZXhwIjoxNjI4MzM2OTU1fQ.ei3wLeZMp2IRefBa7AbHSTwjOYiKofxCpzcPjPq5A8w
+metaSortKey: -1619262563128
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
